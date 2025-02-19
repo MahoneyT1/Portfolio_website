@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: EAF2D7;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    
+}
+
+.ul-elements {
+    display: flex;
+
+}
+
+.li-elements {
+    margin-inline: 50px;
+    list-style: none;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: #efd09e;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    height: 40px;
+    align-items: center;
+    width: 700px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+img {
+    width: 80px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.logo-div {
+    display: flex;
+}
+
+header {
+    display: flex;
+    margin-left: 80px;
+    padding-left: 0;
+}
+
+.container-layout {
+    margin: 50px auto; /* Adds space before and after */
+    width: 80%; /* Makes it take 80% of the screen width */
+    display: flex; /* Enables two columns */
+    gap: 20px; /* Adds space between columns */
+    padding: 20px;
+    border: 2px solid #333; /* Optional: Adds a border */
+    border-radius: 10px;
+    height: 20rem;
+    
+}
+
+.column-1 {
+    flex: 2; /* Takes twice the space of the right column */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.column-2 {
+    flex: 1; /* Takes less space */
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+

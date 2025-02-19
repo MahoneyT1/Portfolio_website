@@ -1,0 +1,43 @@
+body {
+    background-color: var(--primary-color); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* css typography of text colors and font styling */
+
+:root {
+    --primary-color: #181B3C;
+    --secondary-color: #e57d33;
+    --text-primary: white;
+    --body-text: "poppins"
+
+}
+
+:root {
+    --btn-bg: #e57d33;
+    --btn-margin: 10px 0px;
+    --btn-border-radius: 10px;
+    --btn-width: 140px;
+    --btn-border: 1px solid pink;
+
+}
+
+
+.btn {
+    border-radius: 10px;
+    border: 1px solid pink;
+    width: 140px;
+    height: 30px;
+    margin: 1px 0px;
+    background-color: #e57d33;
+}
+
+.btn:hover {
+    background-color: white;
+}
+

@@ -1,0 +1,122 @@
+
+
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-container {
+    width: 80vw;
+    height: 80vh;
+    /* background-color: orange; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.heading-text {
+    height: 90px;
+    width: 180px;
+    /* background-color: gray; */
+    align-items: center;
+    margin: auto;
+    left: 50px;
+    right: 0;
+    align-items: center;
+    padding: 5px 5px;
+    font-family: var(--body-text);
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.contact-text {
+    height: 52vh;
+    width: 50%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.box {
+    height: 20vh;
+    width: 70%;
+    /* background-color: blue; */
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-family: var(--body-text);
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.box:hover { 
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 30px 30px #e57d33;
+}
+
+.contact-form {
+    height: 52vh;
+    width: 35%;
+    position: absolute;
+    top: 180px;
+    right: 150px;
+    /* background-color: brown; */
+
+}
+
+.form-container {
+    height: 52vh;
+    width: 35vw;
+    /* background-color: black; */
+
+}
+
+.form-container input {
+    height: 55px;
+    width: 443px;
+    font-family: var(--body-text);
+    border-radius: 20px;
+    margin: 5px 1px;
+    padding: 0 15px;
+
+}
+
+.form-container textarea {
+    height: 130px;
+    width: 443px;
+    font-family: var(--body-text);
+    border-radius: 13px;
+    padding: 5px 15px;
+    margin:  5px 1px;
+
+
+}
+
+
+.alert.success {
+    color: yellow;
+    border: 1px solid #c3e6cb;
+}
+
+.alert.error {
+    color: blue;
+    border: 1px solid #f5c6cb;
+}
