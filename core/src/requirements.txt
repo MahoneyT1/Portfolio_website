@@ -12,8 +12,7 @@ tornado==6.4.2
 types-PyYAML==6.0.12.20241230
 typing_extensions==4.12.2
 gunicorn
-python-dotenvasgiref==3.8.1
-beautifulsoup4==4.12.3
+python-dotenv
 Django==5.1.5
 django-livereload==1.7
 django-livereload-server==0.5.1
