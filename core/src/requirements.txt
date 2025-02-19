@@ -12,4 +12,4 @@ tornado==6.4.2
 types-PyYAML==6.0.12.20241230
 typing_extensions==4.12.2
 gunicorn
-
+python-dotenv
