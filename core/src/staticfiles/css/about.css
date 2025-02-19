@@ -1,0 +1,248 @@
+.container {
+    display: flex;
+    height: 85vh;
+    width: 93%;
+    background-color: var(yellow);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-me{
+    width: 94%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+} 
+
+img {
+    max-height: 60vh;
+    max-width: 40vw;
+    border-radius: 25px;
+
+
+  
+}
+
+.about-me-img {
+    background-color: var(--primary-color);
+    height: 65vh;
+    width: 40vw;
+    display: flex;
+    margin-right: 190px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+
+    /* margin-top: 90px; */
+
+
+}
+
+.about-me-text {
+    margin: 10px -90px;
+    width: 39vw;
+    height: 62vh;
+    background-color: var(--primary-color); 
+    text-align: center;
+    font-family: "poppins";
+    color: white;
+    line-height: 1.5rem;
+    border: 3px solid white;
+    border-radius: 30px;
+    text-align: center;
+    border-right: 10px solid white;
+    margin-left: 10px; 
+} 
+
+.about-me-text h1 {
+    font-size: 45px;
+    font-size: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+}
+
+.about-me-text p {
+    font-family: "poppins";
+    font-weight: 200px;
+    margin-top: 20px;
+}
+
+.text-style {
+    padding: 20px 2px;
+    border: 1px solid white;
+    border-radius: 30px;
+    max-width: 37vw;
+    max-height: 60vh;
+    line-height: 2.0rem;
+    text-align: center;
+
+}
+
+.skills-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.background-img {
+    background-image: url("/static/images/about-background-img.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.skills-container {
+    height: 200vh;
+    width: 94%;
+    display: block;
+    justify-content: center;
+    padding-top: 30px;
+
+    
+}
+
+.tech-stack {
+    height: 70px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+
+}
+.add-color {
+    filter: invert(100%) sepia(0%) saturate(60%) hue-rotate(150deg) brightness(50%) contrast(50%);
+}
+
+.stacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 2px;
+
+
+}
+
+.stacks li {
+    list-style: none;
+    padding: 0 40px;
+    display: inline-block;
+    animation: moveX 5s linear infinite;
+    display: inline-block;
+    left: -100px;
+    width: 100%;
+
+
+    
+}
+
+
+@keyframes moveX {
+    0% {
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        transform: translateX(100vw);
+    }
+    
+}
+.story {
+    display: flex;
+    height: 190vh;
+    width: 93%;
+    padding: 40px 1px;
+    /* background-color: brown; */
+    margin-top: 50px;
+    margin-left: 60px;
+    
+}
+
+.design-story {
+    width: 50vw;
+    height: 155vh;
+    text-align: center;
+    font-family: "poppins";
+    color: white;
+    line-height: 2rem;
+    border: 3px solid white;
+    border-radius: 30px;
+    border-right: 10px solid white;
+    padding: 2rem 3px;
+    margin-left: 135px;
+
+
+}
+
+.design-story p {
+    margin: 20px 0;
+}
+
+.list-of-stack {
+    display: inline-block;
+    width: 20vw;
+    height: 70vh;
+    justify-content: center;
+    border-right: 10px solid white;
+    border: 3px solid white;
+    margin-left: 140px;
+
+}
+
+.frontend {
+    display: block;
+    width: 20vw;
+    height: 30vh;
+    left: 100px;
+    padding: 5% 0px 0 25%;
+    font-family: "poppins";
+    color: white;
+    text-decoration: none;
+    
+}
+
+.frontend li {
+    list-style-type: none;
+
+}
+.backend {
+    display: block;
+    width: 20vw;
+    height: 40vh;
+    left: 100px;
+    padding: 5% 0px 0 25%;
+    font-family: "poppins";
+    color: white;
+    text-decoration: none;
+}
+
+.list-of-stack h2 {
+    margin-bottom: 5px;
+}
+
+
+/* on mobile */
+@media (max-width: 414px) {
+    .container {
+        flex-direction: column;
+
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+    
+    .about-me-img {
+        display: none;
+    }
+}
